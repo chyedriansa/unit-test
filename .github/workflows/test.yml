@@ -8,8 +8,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v5
       - name: Setup NodeJs
-        uses: action/setup-node@v6
-        with:24
+        uses: actions/setup-node@v6
+        with: 
+            node-version:'24.6.0'
       - name: Installing Depedencies
         run: pnpm install
       - name: running unit test
