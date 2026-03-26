@@ -12,9 +12,9 @@ jobs:
         with:
           version: 10
       - name: Setup NodeJs
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with: 
-            node-version: '24.6.0'
+          node-version: '22'
       - name: Installing Depedencies
         run: pnpm install
       - name: running unit test
