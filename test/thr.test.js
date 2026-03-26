@@ -6,5 +6,10 @@ test ('Hitung THR', function(){
     const result = hitungTHR(gaji, masaKerjaBulan)
     expect(result).toBe(result)
     console.log(result)
-
 })
+
+test('Skenario Intern Baru', () => {
+    const result = hitungTHR(2000000, 4, 'INTERN');
+    expect(result).toBe(result);
+    console.log(result)
+  });
