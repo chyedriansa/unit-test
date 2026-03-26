@@ -2,7 +2,7 @@ name: Unit test
 run-name: Running unit test with github action
 on: [push]
 jobs:
-  Unit-Test
+  Unit-Test:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
